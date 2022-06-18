@@ -27,7 +27,7 @@ export default function manifestDirectory() {
       postedTime: '10 mins ago',
       user: {
         name: 'Friedrich Nietzsche',
-        photo: 'https://placekitten.com/80/80',
+        photo: 'https://placekitten.com/81/80',
         id: 22333
       },
       feedback: {

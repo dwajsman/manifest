@@ -17,7 +17,7 @@ export default function manifestShare() {
       <input></input>
       <User user={myUserInfo}/>
       <button>
-      <span class="material-symbols-outlined">
+      <span className="material-symbols-outlined">
         send
       </span>
         Publish

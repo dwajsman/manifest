@@ -3,10 +3,13 @@
 }
 
 .content-space {
+  padding: 30px;
   width: 80%;
   background-color: lightpink;
 }
 
 .right-menu {
+  padding: 30px;
+
   background-color: lightyellow;
 }
