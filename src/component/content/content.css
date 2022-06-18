@@ -1,0 +1,12 @@
+.content-main {
+  display: flex;
+}
+
+.content-space {
+  width: 80%;
+  background-color: lightpink;
+}
+
+.right-menu {
+  background-color: lightyellow;
+}
