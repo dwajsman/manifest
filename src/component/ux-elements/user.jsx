@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function user() {
+export default function user({user}) {
 
-  const user = {
-    name: 'Datta Velivela',
-    photo: 'https://placekitten.com/80/80',
-    id: 22332
-  }
+  // const user = {
+  //   name: 'Datta Velivela',
+  //   photo: 'https://placekitten.com/80/80',
+  //   id: 22332
+  // }
 
 
   return (
