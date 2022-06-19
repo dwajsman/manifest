@@ -12,7 +12,7 @@ export default function user({user}) {
   return (
     <div key={user.id}>
       
-      <img src={user.photo} alt={`photo of ${user.name}`} />
+      <img src={user.photo} alt={`${user.name}`} />
       <p>{user.name}</p>
       
 
