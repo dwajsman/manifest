@@ -3,6 +3,6 @@ import './menu.css';
 
 export default function menu() {
   return (
-    <div className='menubar'>menu goes here</div>
+    <div className='menubar w-1/5'>menu goes here</div>
   )
 }
