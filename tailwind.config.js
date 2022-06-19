@@ -9,6 +9,9 @@ module.exports = {
         primary: "#ff4800",
       }
     },
+    fontFamily: {
+      primary: ["roboto", "sans-serif"]
+    },
   },
   plugins: [],
 }

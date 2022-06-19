@@ -9,7 +9,7 @@ export default function content() {
     <div className='content-main w-4/5 flex'>
 
       <div className='content-space w-5/6'>
-        <h1>content</h1>
+        <h1 className='mb-6 text-left text-3xl font-extrabold p-1'>content</h1>
         <ManifestShare />
         <ManifestDirectory />
       </div>
