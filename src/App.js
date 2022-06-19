@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 // import './App.css';
 // import React, { Component } from 'react';
-import Content from './content/content';
-import Menu from "./menu/menu";
+import Content from './component/content/content.jsx';
+import Menu from "./component/menu/menu.jsx";
 
 function App() {
   return (
