@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 import 'firebase/auth';
+import { getAuth } from "firebase/auth";
 import 'firebase/firestore';
 import { FieldValue, getFirestore } from "firebase/firestore";
 
@@ -16,11 +17,14 @@ const config = {
 };
 
 const firebase = initializeApp(config)
-const db = getFirestore();
+const auth = getAuth(firebase);
+const db = getFirestore(firebase);
+
 
 // do not uncomment these. It'll add duplicate data
 
 // seedUsers(db, 'users');
 // seedManifestations(db, 'manifestos');
 
-export { firebase, FieldValue, db };
+export { firebase, FieldValue, db, auth };
+

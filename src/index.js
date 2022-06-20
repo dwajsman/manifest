@@ -1,12 +1,14 @@
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from "react-router-dom";
 import App from './App';
-import FirebaseContext from './context/firebase';
+import UserProvider from './context/user-provider';
 import './index.css';
-import { db, FieldValue, firebase } from './lib/utils';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <FirebaseContext.Provider value={{ firebase, FieldValue, db }}>
-    <App />
-  </FirebaseContext.Provider>
+  <UserProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </UserProvider>
 );
